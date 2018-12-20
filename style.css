@@ -1,0 +1,55 @@
+div#map {min-height: 360px;}
+
+#cch-pla-uni-stx-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+#trd-frl-own-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+#BWG-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+#FUT-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+#BNG-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+#AFF-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+
+#BMK-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+    font-size:10px;
+  
+}
+#SMK-chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+     font-size:10px;
+}
+div#map {min-height: 360px;}
+
+/*section {
+    background-image: url('/images/field-background.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+}*/
