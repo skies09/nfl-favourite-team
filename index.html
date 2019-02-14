@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.js"></script>
     <script type="text/javascript" src="js/queue.min.js"></script>
     <script type="text/javascript" src="js/graph.js"></script>
+    <script type="text/javascript" src="/js/poll.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="/style.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Mukta|Noto+Sans|Roboto|Rubik" rel="stylesheet">
     <title>NFL Favourite Team</title>
-
-
 </head>
 
 
@@ -25,13 +25,18 @@
     <div class='header'>
         <h1>Which National Football Team To Support?</h1>
     </div>
-    <div class='instructions'>
-        <h2>There are 32 teams to pick from and here is data to help you choose which team to support</h2>
-        <p>The 32 NFL teams split into two categories, the NFC (National Football Conference) and the AFC (American Football Conference). Each year the teams play for the championship of the NFC and AFC and the resulting winners of those conferences go on
-            to play the Superbowl.</p>
+    <div class='explaination-header'>
+        <p>In 2016 the NFL team of St. Louis relocated to Los Angeles and became the Los Angeles Rams. This left many fans based in the St. Louis area asking the question “what do you do when your pro sports team moves away?” This page is designed for those
+            unlucky ones searching for a new team and new spectators of the sport. You can also use this page if you have become disloyal to your current team and looking for a new team to support.</p>
     </div>
+    <h2>There are 32 teams to pick from and here is data to help you choose which team to support</h2>
+    <p class='information'>The 32 NFL (national Football League) teams split into two categories, the NFC (National Football Conference) and the AFC (American Football Conference). The NFL is one of the four major professional sports leagues in North America, and the highest
+        professional level of American football in the world. The NFL's 17-week regular season runs from early September to late December, with each team playing 16 games and having one bye week (week off). Following the conclusion of the regular season,
+        six teams from each conference (four division winners and two wild card teams) advance to the playoffs, a single-elimination tournament culminating in the Super Bowl, which is usually held in the first Sunday in February, and is played between
+        the champions of the NFC and AFC.</p>
+    <button class='button center-block'>More Information</button>
     <div class='location-header'>
-        <h2>Maybe Location Is Most Important To You</h2>
+        <p>Maybe Location Is Most Important To You</p>
     </div>
     <div class='row'>
         <div class='col-xs-6 col-md-2'>
@@ -81,29 +86,55 @@
         </div>
     </div>
     <div class='graph-header'>
-        <h2>As NFl becomes a sport loved all over the world and if you live outside the USA then other factors may be more important than location.</h2>
+        <p>As NFl becomes a sport loved all over the world, and if you live outside the USA then other factors may be more important than location.</p>
     </div>
     <div class="container-fluid">
         <div class='row'>
             <div id='team-selector'></div>
         </div>
     </div>
-    <div class='row'>
-        <div id='cch-pla-uni-stx-chart'>
+    <div class="container-fluid">
+        <div class='row'>
+            <div class='col-xs-12 col-md-8'>
+                <div id="cch-pla-uni-stx-chart"></div>
+            </div>
+            <div class='col-xs-12 col-md-4'>
+                <h3>Categories</h3>
+                <div class='stacked-chart-info-label'>
+                    <p><strong>Coaching</strong> - Strength of on-field leadership
+                        </br><strong>Players</strong> - Effort on the field, likability off it
+                        </br><strong>Uniform</strong> - Stylishness of uniform design, according to Uni Watch's Paul Lukas
+                        </br><strong>Stadium experience</strong> - Quality of venue; fan-friendliness of environment; frequency of game-day promotions
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class='row'>
-        <div id='trd-frl-own-chart'>
+    <div class="container-fluid">
+        <div class='row'>
+            <div class='col-xs-12 col-md-8'>
+                <div id="trd-frl-own-chart"></div>
+            </div>
+            <div class='col-xs-12 col-md-4'>
+                <h3>Categories</h3>
+                <div class='stacked-chart-info-label'>
+                    <p><strong>Tradition</strong> - Championships/division titles/wins in team's entire history
+                        </br><strong>Fan relations</strong> - Courtesy by players, coaches and front offices toward fans, and how well a team uses technology to reach them
+                        </br><strong>Ownership</strong> - Honesty; loyalty to core players and the community
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class='row'>
             <div class='col-xs-12 col-md-6'>
                 <div class='container-BWG'>
                     <h3>Bandwagon Factor</h3>
                     <div id="BWG-chart"></div>
-                    <div class='BWG-label'>
-                        <p>Bandwagon Factor - Are the team's next 5 years likely to be better than their previous 5?</p>
+                    <div class='chart-label'>
+                        <p><strong>Bandwagon Factor</strong> - Are the team's next 5 years likely to be better than their previous 5?</p>
                     </div>
                 </div>
             </div>
@@ -111,8 +142,8 @@
                 <div class='container-FUT'>
                     <h3>Future Wins</h3>
                     <div id="FUT-chart"></div>
-                    <div class='FUT-label'>
-                        <p>Future wins - Projected wins over next 5 seasons</p>
+                    <div class='chart-label'>
+                        <p><strong>Future wins</strong> - Projected wins over next 5 seasons</p>
                     </div>
                 </div>
             </div>
@@ -125,8 +156,8 @@
                 <div class='container-BNG'>
                     <h3>Bang For The Buck</h3>
                     <div id="BNG-chart"></div>
-                    <div class='BNG-label'>
-                        <p>Bang for the buck - Wins per fan dollars spent</p>
+                    <div class='chart-label'>
+                        <p><strong>Bang for the buck</strong> - Wins per fan dollars spent</p>
                     </div>
                 </div>
             </div>
@@ -134,15 +165,15 @@
                 <div class='container-AFF'>
                     <h3>Affordability</h3>
                     <div id="AFF-chart"></div>
-                    <div class='AFF-label'>
-                        <p>Affordability - Price of tickets, parking and concessions</p>
+                    <div class='chart-label'>
+                        <p><strong>Affordability</strong> - Price of tickets, parking and concessions</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class='row'>
             <div class='col-xs-12 col-md-6'>
                 <div class='container-BMK'>
@@ -165,14 +196,85 @@
         </div>
     </div>
     </div>
+    -->
 
-    <footer>
-        <h5>Whos Your Favourite Team?</h5>
-        <h6>Submit Here</h6>
-    </footer>
+
+    <div id="poll">
+        <h2>Pick Your Favourite Team Here</h2>
+        <form>
+            Green Bay Packers
+            <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+            </br>Pittsburgh Steelers
+            <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+            </br>kansas City Chiefs
+            <input type="radio" name="vote" value="2" onclick="getVote(this.value)">
+            </br>New England Patriots
+            <input type="radio" name="vote" value="3" onclick="getVote(this.value)">
+            </br>Buffalo Bills
+            <input type="radio" name="vote" value="4" onclick="getVote(this.value)">
+            </br>Carolina Panthers
+            <input type="radio" name="vote" value="5" onclick="getVote(this.value)">
+            </br>Seattle Seahawks
+            <input type="radio" name="vote" value="6" onclick="getVote(this.value)">
+            </br>Indianapolis Colts
+            <input type="radio" name="vote" value="7" onclick="getVote(this.value)">
+            </br>Arizona Cardinals
+            <input type="radio" name="vote" value="8" onclick="getVote(this.value)">
+            </br>Baltimore Ravens
+            <input type="radio" name="vote" value="9" onclick="getVote(this.value)">
+            </br>Houston Texans
+            <input type="radio" name="vote" value="10" onclick="getVote(this.value)">
+            </br>New Orleans Saints
+            <input type="radio" name="vote" value="11" onclick="getVote(this.value)">
+            </br>Philadelphia Eagles
+            <input type="radio" name="vote" value="12" onclick="getVote(this.value)">
+            </br>Denver Broncos
+            <input type="radio" name="vote" value="13" onclick="getVote(this.value)">
+            </br>Detroit Lions
+            <input type="radio" name="vote" value="14" onclick="getVote(this.value)">
+            </br>Minnesota Vikings
+            <input type="radio" name="vote" value="15" onclick="getVote(this.value)">
+            </br>New York Giants
+            <input type="radio" name="vote" value="16" onclick="getVote(this.value)">
+            </br>Atlanta Falcons
+            <input type="radio" name="vote" value="17" onclick="getVote(this.value)">
+            </br>Dallas Cowboys
+            <input type="radio" name="vote" value="18" onclick="getVote(this.value)">
+            </br>Jacksonville Jaguars
+            <input type="radio" name="vote" value="19" onclick="getVote(this.value)">
+            </br>Miami Dolphins
+            <input type="radio" name="vote" value="20" onclick="getVote(this.value)">
+            </br>Cincinnati Bengals
+            <input type="radio" name="vote" value="21" onclick="getVote(this.value)">
+            </br>Oakland Raiders
+            <input type="radio" name="vote" value="22" onclick="getVote(this.value)">
+            </br>Tampa Bay Buccaneers
+            <input type="radio" name="vote" value="23" onclick="getVote(this.value)">
+            </br>Los Angeles Rams
+            <input type="radio" name="vote" value="24" onclick="getVote(this.value)">
+            </br>Chicago Bears
+            <input type="radio" name="vote" value="25" onclick="getVote(this.value)">
+            </br>Cleveland Browns
+            <input type="radio" name="vote" value="26" onclick="getVote(this.value)">
+            </br>San Diego Chargers
+            <input type="radio" name="vote" value="27" onclick="getVote(this.value)">
+            </br>San Francisco 49ers
+            <input type="radio" name="vote" value="28" onclick="getVote(this.value)">
+            </br>New York Jets
+            <input type="radio" name="vote" value="29" onclick="getVote(this.value)">
+            </br>Washington Redskins
+            <input type="radio" name="vote" value="30" onclick="getVote(this.value)">
+            </br>Tennessee Titans
+            <input type="radio" name="vote" value="31" onclick="getVote(this.value)">
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAiRdfV5Au0t_tRKWSTSy3y7_EXa6coUQ&callback=initMap"></script>
     <script src='/js/maps.js'></script>
+
 
 </body>
 

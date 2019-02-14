@@ -5,23 +5,46 @@
     border-width: 5px;
     border-color: black;
     background-color: #0047b3;
-    margin: -22px;
+
 }
 
-.instructions {
-    background-color: #4994ff;
-    margin: -10px;
-}
-
-.instructions p {
+.explaination-header {
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.information {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    flex: 1 0 auto;
+    display: none;
+}
+
+.button {
+    display: flex;
+    background-color: #4994ff;
+    text-align: center;
+    color: #fff;
     padding: 10px;
 }
 
 .location-header {
-    background-color: #80b3ff;
+    padding-bottom: 20px;
     border-top: solid black 2px;
+}
+
+.location-header p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: solid black 2px;
+    background-color: #4994ff;
 }
 
 .list {
@@ -31,9 +54,26 @@
     min-width: 100%;
 }
 
-.graph-header {
+.graph-header p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
     background-color: #4994ff;
-    margin: -10px;
+}
+
+.stacked-chart-info-label {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.chart-label p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -53,12 +93,14 @@ h2 {
     text-align: center;
     padding-bottom: 15px;
     border-bottom: solid black 2px;
-
+    border-top: solid black 2px;
+    background-color: #4994ff;
 }
 
 h3 {
     font-family: 'Rubik', sans-serif;
     padding-left: 15px;
+    text-decoration: underline;
 }
 
 /*map*/
@@ -70,7 +112,7 @@ div#map {
 /*team selector*/
 
 #team-selector {
-    padding: 20px;
+    padding: 28px;
     font-size: 18px;
 }
 
@@ -80,15 +122,13 @@ div#map {
     padding-left: 60px;
 }
 
-
 #cch-pla-uni-stx-chart .x.axis text {
     text-anchor: end !important;
     transform: rotate(-45deg);
     font-size: 10px;
 }
 
-
-#trd-frl-own-chart{
+#trd-frl-own-chart {
     padding-left: 60px;
 }
 
@@ -146,3 +186,53 @@ div#map {
     background-position: center;
     background-size: cover;
 }*/
+
+/*form and results styling*/
+
+form {
+    padding: 5px 3%;
+    box-sizing: border-box;
+    border: 3px dotted #000000;
+}
+
+#poll {
+    font-size: 18px;
+    color: black;
+    text-shadow: 1px 2px #4994ff;
+    background: url(/images/football-700x416.jpg) no-repeat center;
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+table {
+    padding: 5px 3%;
+    box-sizing: border-box;
+    border: 3px dotted #000000;
+    background: url(/images/football-700x416.jpg) no-repeat center;
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+tr {
+    font-size: 18px;
+    color: black;
+    text-shadow: 1px 2px #4994ff;
+}
+
+td {
+    padding-left: 50px;
+}
+
+input {
+    float: left;
+    margin-top: 5px;
+
+}
