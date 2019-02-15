@@ -123,7 +123,7 @@ div#map {
 /*graph stylings*/
 
 #cch-pla-uni-stx-chart {
-    padding-left: 60px;
+    padding-left: 20px;
 }
 
 #cch-pla-uni-stx-chart .x.axis text {
@@ -133,7 +133,7 @@ div#map {
 }
 
 #trd-frl-own-chart {
-    padding-left: 60px;
+    padding-left: 20px;
 }
 
 #trd-frl-own-chart .x.axis text {
@@ -180,17 +180,6 @@ div#map {
 }
 
 
-
-/*section {
-    background-image: url('/images/field-background.jpeg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-   min-height: 100%;
-    min-width: 100%;
-    background-position: center;
-    background-size: cover;
-}*/
-
 /*form and results styling*/
 
 form {
@@ -232,7 +221,7 @@ tr {
 }
 
 td {
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 input {
