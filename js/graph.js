@@ -37,7 +37,7 @@ function show_stacked_CCH_PLA_UNI_STX(ndx) {
     var stxGroup = team_dim.group().reduceSum(dc.pluck('STX'));
 
     dc.barChart("#cch-pla-uni-stx-chart")
-        .width(550)
+        .width(800)
         .height(450)
         .dimension(team_dim)
         .group(cchGroup, "Coaching")
@@ -46,8 +46,8 @@ function show_stacked_CCH_PLA_UNI_STX(ndx) {
         .stack(stxGroup, "Stadium Experience")
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .legend(dc.legend().x(45).y(0).itemHeight(15).gap(5))
-        .margins({ top: 10, right: 10, bottom: 80, left: 35 });
+        .legend(dc.legend().x(100).y(0).itemHeight(15).gap(5))
+        .margins({ top: 10, right: 50, bottom: 95, left: 75 });
 }
 
 function show_stacked_TRD_FRL_OWN(ndx) {
@@ -58,7 +58,7 @@ function show_stacked_TRD_FRL_OWN(ndx) {
     var ownGroup = team_dim.group().reduceSum(dc.pluck('OWN'));
 
     dc.barChart("#trd-frl-own-chart")
-        .width(550)
+        .width(800)
         .height(450)
         .dimension(team_dim)
         .group(trdGroup, "Tradition")
@@ -66,8 +66,8 @@ function show_stacked_TRD_FRL_OWN(ndx) {
         .stack(ownGroup, "Ownership")
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .legend(dc.legend().x(45).y(0).itemHeight(15).gap(5))
-        .margins({ top: 10, right: 10, bottom: 80, left: 35 });
+        .legend(dc.legend().x(100).y(0).itemHeight(15).gap(5))
+        .margins({ top: 10, right: 50, bottom: 95, left: 75 });
 }
 
 
