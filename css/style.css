@@ -71,7 +71,7 @@
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
-  
+
 }
 
 .stacked-chart-info-label {
@@ -188,6 +188,9 @@ div#map {
     font-size: 10px;
 }
 
+.chart-wrapper {
+    overflow: scroll;
+}
 
 /*form and results styling*/
 
@@ -195,27 +198,34 @@ form {
     padding: 5px 3%;
     box-sizing: border-box;
     border: 3px dotted #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #cc0000;
+    text-shadow: 2px 2px white;
+    text-transform: capitalize;
+
 }
 
 #poll {
-    font-size: 18px;
-    color: black;
-    text-shadow: 1px 2px #4994ff;
-    background: url(/images/football-700x416.jpg) no-repeat center;
+
+   background: url(/images/football-700x416.jpg) no-repeat center;
     min-height: 100%;
     min-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   
 }
+
+
 
 table {
     padding: 5px 3%;
     box-sizing: border-box;
     border: 3px dotted #000000;
     background: url(/images/football-700x416.jpg) no-repeat center;
-    min-height: 100%;
     min-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -224,9 +234,12 @@ table {
 }
 
 tr {
-    font-size: 18px;
-    color: black;
-    text-shadow: 1px 2px #4994ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #cc0000;
+    text-shadow: 2px 2px white;
+    text-transform: capitalize;
 }
 
 td {
@@ -237,8 +250,4 @@ input {
     float: left;
     margin-top: 5px;
 
-}
-
-.chart-wrapper {
-    overflow: scroll;
 }
