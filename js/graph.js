@@ -66,8 +66,8 @@ function show_stacked_TRD_FRL_OWN(ndx) {
         .stack(ownGroup, "Ownership")
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .legend(dc.legend().x(100).y(0).itemHeight(15).gap(5))
-        .margins({ top: 10, right: 50, bottom: 95, left: 75 });
+        .legend(dc.legend().x(100).y(20).itemHeight(15).gap(5))
+        .margins({ top: 30, right: 50, bottom: 95, left: 75 });
 }
 
 

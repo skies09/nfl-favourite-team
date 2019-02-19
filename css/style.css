@@ -65,6 +65,15 @@
     background-color: #4994ff;
 }
 
+.graph-information p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  
+}
+
 .stacked-chart-info-label {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
@@ -228,4 +237,8 @@ input {
     float: left;
     margin-top: 5px;
 
+}
+
+.chart-wrapper {
+    overflow: scroll;
 }
