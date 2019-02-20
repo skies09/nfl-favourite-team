@@ -1,6 +1,6 @@
 # **NFL Favourite Team**
 
-===
+---
 
 This is the milestone project for the Interactive Frontend Development milestone project  module for Code Institute.
 This is a data dashboard that visualizes the dataset from nfl-favourite-team which grades the 32 NFL teams by categories, to be used to pick a new favourite team.
@@ -24,7 +24,7 @@ Following on from this I was curious of how popular each team is and so created 
 ### Target audience
 * American Football fans
 
-===
+---
 
 # How the website is setup
 ---
@@ -64,7 +64,7 @@ I first created the poll with the input buttons that the user could click. I the
 I then created a calculator which could add the votes/tally the array. These votes are then added into a poll_result.txt file and saved. The results are then displayed on a table which have been calculated as a percentage for each team from the votes overall.
 This has been tested by voting on every team to make sure all the buttons work and all the results are calculated.
 
-===
+---
 
 ###### Extras
 * This project has been deployed to github pages*
