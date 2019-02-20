@@ -85,8 +85,6 @@ This has been tested by voting on every team to make sure all the buttons work a
 ###### Browsers tested on
 
 * Chrome
-* Safari
-* Firefox
 * Mozilla
 
 ###### Devices tested on
