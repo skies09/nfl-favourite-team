@@ -1,12 +1,16 @@
 # **NFL Favourite Team**
 ---
 
-This is the milestone project for the Interactive Frontend Development milestone project  module for CodeInstitute.
+This is the milestone project for the Interactive Frontend Development milestone project  module for Code Institute.
 This is a data dashboard that visualizes the dataset from nfl-favourite-team which grades the 32 NFL teams by categories, to be used to pick a new favourite team.
 
 
-
-
+##Starting the project
+After locating the nfl favourite team data I decided to display this data to visually aid American Football fans to select a favourite team easily.
+I started by selecting the most useful categories and generating the graphs. 
+Once the graphs were completed I added the header and information but felt the page was lacking.
+After speaking to fans I discovered that location is a big factor of which team to support and so I included a map with all the locations of each teams stadium. (This is the first factor on the page as fans made it clear this was ver important.)
+Following on from this I was curious of how popular each team is and so created the poll at the end.
 
 
 ## Strategy for the project
@@ -32,12 +36,17 @@ Includes a list and key of the 32 NFL teams and a map showing the location of ea
 
 * Dashboard content
 
-There is an comment on where the data is retrieved from followed by 6 graphs.
+There is an comment on where the data is retrieved from followed by a team selector and 6 graphs.
 
-The first two graphs are stacked graphs with a brief explanation to the categories.
+The first two graphs are stacked graphs with a brief explanation to the categories. 
+These are laid out with the categories section next to the graph but the categories sections locates to below when viewed on mobile screens.
+
 
 The following four graphs are laid out in rows of two with the title above and explanation to each graph below. 
+These change to stack ontop of each other when viewed on mobile screen.
 
+All graphs were created by using dc.js which plucks the different teams from the nfl-data file and for the category selected, the corresponding value and displays this value on a graph.
+Graphs would spill over in mobile view so to combat this problem, a chart wrapper was used.
 
 
 * Poll
@@ -48,6 +57,7 @@ The problem with this approach is that the user could click on their favourite t
 To combat this approach I decided to use the dynamic PHP language which worked very similar to javascript but was able to save the results into a file.
 I first created the poll with the input buttons that the user could click. I then created an array linking all 32 teams with the input buttons on the index.html as I would have done with javascript.
 I then created a calculator which could add the votes/tally the array. These votes are then added into a poll_result.txt file and saved. The results are then displayed on a table which have been calculated as a percentage of all the votes overall.
+This has been tested by voting on every team to make sure all the buttons work and all the results are calculated.
 
 **
 
@@ -57,7 +67,7 @@ I then created a calculator which could add the votes/tally the array. These vot
 
 
 ###### Extras
-**
+* This project has been deployed to github pages*
 
 
 

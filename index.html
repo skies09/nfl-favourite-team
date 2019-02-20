@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.js"></script>
@@ -20,15 +19,17 @@
     <title>NFL Favourite Team</title>
 </head>
 
-
 <body>
+
     <div class='header'>
         <h1>Which National Football Team To Support?</h1>
     </div>
+
     <div class='explaination-header'>
         <p>In 2016 the NFL team of St. Louis relocated to Los Angeles and became the Los Angeles Rams. This left many fans based in the St. Louis area asking the question “what do you do when your pro sports team moves away?” This page is designed for those
             unlucky ones searching for a new team and new spectators of the sport. You can also use this page if you have become disloyal to your current team and looking for a new team to support.</p>
     </div>
+
     <h2>There are 32 teams to pick from and here is data to help you choose which team to support</h2>
     <p class='information'>The 32 NFL (national Football League) teams split into two categories, the NFC (National Football Conference) and the AFC (American Football Conference). The NFL is one of the four major professional sports leagues in North America, and the highest
         professional level of American football in the world. The NFL's 17-week regular season runs from early September to late December, with each team playing 16 games and having one bye week (week off). Following the conclusion of the regular season,
@@ -38,6 +39,7 @@
     <div class='location-header'>
         <p>Maybe Location Is Most Important To You</p>
     </div>
+
     <div class='row'>
         <div class='col-xs-6 col-md-2'>
             <h3>Map</h3>
@@ -82,9 +84,12 @@
             </ul>
         </div>
         <div class='col-xs-12 col-md-8'>
-            <div id='map'></div>
+            <div class="chart-wrapper">
+                <div id='map'></div>
+            </div>
         </div>
     </div>
+
     <div class='graph-header'>
         <p>As NFl becomes a sport loved all over the world, and if you live outside the USA then other factors may be more important than location.</p>
     </div>
@@ -95,11 +100,13 @@
             </br>Grading system - results are out of 100.
         </p>
     </div>
+
     <div class="container-fluid">
         <div class='row'>
             <div id='team-selector'></div>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class='row'>
             <div class='col-xs-12 col-md-8'>
@@ -107,8 +114,6 @@
                     <div id="cch-pla-uni-stx-chart"></div>
                 </div>
             </div>
-
-
             <div class='col-xs-12 col-md-4'>
                 <div class='stacked-chart-info-label'>
                     <h3>Categories</h3>
@@ -121,6 +126,7 @@
             </div>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class='row'>
             <div class='col-xs-12 col-md-8'>
@@ -193,7 +199,6 @@
             </div>
         </div>
     </div>
-
 
     <div id="poll">
         <h2>Pick Your Favourite Team Here</h2>
