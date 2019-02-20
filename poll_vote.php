@@ -158,7 +158,7 @@ fclose($fp);
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($gbp/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($gbp/($total),2)); ?>%
 </td>
 </tr>
@@ -167,7 +167,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($ps/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($ps/($total),2)); ?>%
 </td>
 </tr>
@@ -176,7 +176,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($kcc/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($kcc/($total),2)); ?>%
 </td>
 </tr>
@@ -185,7 +185,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($nep/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($nep/($total),2)); ?>%
 </td>
 </tr>
@@ -194,7 +194,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($bb/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($bb/($total),2)); ?>%
 </td>
 </tr>
@@ -203,7 +203,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($cp/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($cp/($total),2)); ?>%
 </td>
 </tr>
@@ -212,7 +212,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($ss/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($ss/($total),2)); ?>%
 </td>
 </tr>
@@ -221,7 +221,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($ic/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($ic/($total),2)); ?>%
 </td>
 </tr>
@@ -230,7 +230,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($ac/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($ac/($total),2)); ?>%
 </td>
 </tr>
@@ -239,7 +239,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($br/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($br/($total),2)); ?>%
 </td>
 </tr>
@@ -248,7 +248,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($ht/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($ht/($total),2)); ?>%
 </td>
 </tr>
@@ -257,7 +257,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($nos/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($nos/($total),2)); ?>%
 </td>
 </tr>
@@ -266,7 +266,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($pe/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($pe/($total),2)); ?>%
 </td>
 </tr>
@@ -275,7 +275,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($db/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($db/($total),2)); ?>%
 </td>
 </tr>
@@ -284,7 +284,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($dl/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($dl/($total),2)); ?>%
 </td>
 </tr>
@@ -293,7 +293,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($mv/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($mv/($total),2)); ?>%
 </td>
 </tr>
@@ -302,7 +302,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($nyg/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($nyg/($total),2)); ?>%
 </td>
 </tr>
@@ -311,7 +311,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($af/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($af/($total),2)); ?>%
 </td>
 </tr>
@@ -320,7 +320,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($dc/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($dc/($total),2)); ?>%
 </td>
 </tr>
@@ -329,7 +329,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($jj/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($jj/($total),2)); ?>%
 </td>
 </tr>
@@ -338,7 +338,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($md/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($md/($total),2)); ?>%
 </td>
 </tr>
@@ -347,7 +347,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($cben/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($cben/($total),2)); ?>%
 </td>
 </tr>
@@ -356,7 +356,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($or/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($or/($total),2)); ?>%
 </td>
 </tr>
@@ -365,7 +365,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($tbb/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($tbb/($total),2)); ?>%
 </td>
 </tr>
@@ -374,7 +374,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($lar/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($lar/($total),2)); ?>%
 </td>
 </tr>
@@ -383,7 +383,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($cbear/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($cbear/($total),2)); ?>%
 </td>
 </tr>
@@ -392,7 +392,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($cbrown/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($cbrown/($total),2)); ?>%
 </td>
 </tr>
@@ -401,7 +401,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($sdc/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($sdc/($total),2)); ?>%
 </td>
 </tr>
@@ -410,7 +410,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($sf/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($sf/($total),2)); ?>%
 </td>
 </tr>
@@ -419,7 +419,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($nyj/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($nyj/($total),2)); ?>%
 </td>
 </tr>
@@ -428,7 +428,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($wr/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($wr/($total),2)); ?>%
 </td>
 </tr>
@@ -437,7 +437,7 @@ height='10'>
 <td>
 <img src="/images/poll.gif"
 width='<?php echo(100*round($tt/($total),2)); ?>'
-height='10'>
+height='15'>
 <?php echo(100*round($tt/($total),2)); ?>%
 </td>
 </tr>
