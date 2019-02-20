@@ -159,7 +159,8 @@ fclose($fp);
 <img src="/images/poll.gif"
 width='<?php echo(100*round($gbp/($total),2)); ?>'
 height='15'>
-<?php echo(100*round($gbp/($total),2)); ?>%
+<?php $calculation=(100*round($gbp/($total),2));
+echo $calculation; ?>%
 </td>
 </tr>
 <tr>
