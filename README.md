@@ -5,7 +5,7 @@ This is the milestone project for the Interactive Frontend Development milestone
 This is a data dashboard that visualizes the dataset from nfl-favourite-team which grades the 32 NFL teams by categories, to be used to pick a new favourite team.
 
 
-##Starting the project
+## Starting the project
 After locating the nfl favourite team data I decided to display this data to visually aid American Football fans to select a favourite team easily.
 I started by selecting the most useful categories and generating the graphs. 
 Once the graphs were completed I added the header and information but felt the page was lacking.
