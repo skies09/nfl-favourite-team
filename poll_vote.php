@@ -156,261 +156,203 @@ fclose($fp);
 <tr>
 <td>Green Bay Packers:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($gbp/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($gbp/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Pittsburg Steelers:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($ps/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($ps/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Kansas City Chiefs:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($kcc/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($kcc/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>New England Patriots:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($nep/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($nep/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Buffalo Bills:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($bb/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($bb/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Carolina Panthers:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($cp/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($cp/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Seattle Seahawks:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($ss/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($ss/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Indianapolis Colts:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($ic/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($ic/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Arizona Cardinals:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($ac/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($ac/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Baltimore Ravens:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($br/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($br/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Houston Texans:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($ht/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($ht/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>New Orleans Saints:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($nos/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($nos/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Philadelphia Eagles:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($pe/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($pe/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Denver Broncos:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($db/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($db/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Detroit Lions:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($dl/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($dl/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Minnesota Vikings:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($mv/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($mv/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>New York Giants:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($nyg/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($nyg/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Atlanta Falcons:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($af/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($af/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Dallas Cowboys:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($dc/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($dc/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Jacksonville Jaguars:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($jj/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($jj/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Miami Dolphins:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($md/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($md/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Cincinnati Bengals:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($cben/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($cben/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Oakland Raiders:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($or/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($or/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Tampa Bay Buccaneers:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($tbb/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($tbb/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Los Angeles Rams:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($lar/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($lar/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Chicago Bears:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($cbear/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($cbear/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Cleveland Browns:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($cbrown/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($cbrown/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>San Diego Chargers:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($sdc/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($sdc/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>San Francisco 49ers:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($sf/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($sf/($total),2)); ?>%
 </td>
 </tr>
@@ -418,26 +360,21 @@ height='15'>
 <td>New York Jets:</td>
 <td>
 <img src="/images/poll.gif"
-width='<?php echo(100*round($nyj/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($nyj/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Washington Redskins:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($wr/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($wr/($total),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>Tennessee Titans:</td>
 <td>
-<img src="/images/poll.gif"
-width='<?php echo(100*round($tt/($total),2)); ?>'
-height='15'>
+
 <?php echo(100*round($tt/($total),2)); ?>%
 </td>
 </tr>
