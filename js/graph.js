@@ -13,8 +13,6 @@ function makeGraphs(error, nflData) {
     show_FUT(ndx);
     show_BNG(ndx);
     show_AFF(ndx);
-    show_BMK(ndx);
-    show_SMK(ndx);
 
     dc.renderAll();
 }
@@ -132,40 +130,6 @@ function show_AFF(ndx) {
         .margins({ top: 10, right: 20, bottom: 80, left: 50 })
         .dimension(team_dim)
         .group(affGroup)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .yAxisLabel("Rating")
-        .yAxis().ticks(10);
-}
-
-function show_BMK(ndx) {
-    var team_dim = ndx.dimension(dc.pluck('TEAM'));
-    var bmkGroup = team_dim.group().reduceSum(dc.pluck('BMK'));
-
-    dc.barChart("#BMK-chart")
-        .width(500)
-        .height(250)
-        .margins({ top: 10, right: 20, bottom: 80, left: 50 })
-        .dimension(team_dim)
-        .group(bmkGroup)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .yAxisLabel("Rating")
-        .yAxis().ticks(10);
-}
-
-function show_SMK(ndx) {
-    var team_dim = ndx.dimension(dc.pluck('TEAM'));
-    var smkGroup = team_dim.group().reduceSum(dc.pluck('SMK'));
-
-    dc.barChart("#SMK-chart")
-        .width(500)
-        .height(250)
-        .margins({ top: 10, right: 20, bottom: 80, left: 50 })
-        .dimension(team_dim)
-        .group(smkGroup)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
